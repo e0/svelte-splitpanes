@@ -490,6 +490,7 @@
 		for (let i = 0; i < panes.length; i++) {
 			const pane = panes[i];
 			arr[i] = {
+				element: pane.element,
 				min: pane.min(),
 				max: pane.max(),
 				size: pane.sz(),

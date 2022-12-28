@@ -24,6 +24,7 @@ export interface SplitContext {
 }
 
 export interface IPaneSizingEvent {
+	element?: HTMLElement;
 	// minimum size in %
 	min: number;
 	// maximum size in %
